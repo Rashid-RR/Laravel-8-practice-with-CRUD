@@ -17,6 +17,8 @@
             <div><a href="/about">About us</a></div>
             <div><a href="/contact">Contact us</a></div>
             <div><a href="/users">Get Users from DB</a></div>
+            <div><a href="/membersList">Members CRUD</a></div>
+            <div><a href="/getTb">Db Operation</a></div>
         </div>
     </body>
 </html>

@@ -7,6 +7,7 @@ use App\Http\Controllers\FormController;
 use App\Http\Controllers\UserAuthController;
 use App\Http\Controllers\FileUploadController;
 use App\Http\Controllers\MembersController;
+use App\Http\Controllers\Users;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -74,3 +75,6 @@ Route::get("edit/{id}",[MembersController::class,'getMemberById']);
 Route::post("edit",[MembersController::class,'updateMember']);
 
 Route::get("detail/{id}",[MembersController::class,'detailMemberById']);
+
+Route::get('getTb',[Users::class,'dbOperation']);
+Route::get('getTb2',[Users::class,'dbOperation2']);
